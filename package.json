@@ -1,6 +1,6 @@
 {
   "name": "@nightmaregaurav/fluent-validator-js",
-  "version": "2.0.7",
+  "version": "3.0.0",
   "description": "FluentValidatorJs is a TypeScript utility library that provides a fluent, readable, and intuitive way to perform value validations and collect error messages. With its easy-to-use chaining methods, you can define and execute complex validation rules with minimal effort.",
   "scripts": {
     "compile": "tsc",
