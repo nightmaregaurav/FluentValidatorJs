@@ -1,3 +1,5 @@
+import {Predicate} from "@nightmaregaurav/ts-utility-types";
+
 export class Ensure<T> {
     private readonly parent?: Ensure<any>;
     private readonly value: T;
@@ -22,7 +24,7 @@ export class Ensure<T> {
         return new Ensure<TT>(newValue, this);
     }
 
-    public passesTest(testName: string, test: (value: T) => boolean): Ensure<T> {
+    public passesTest(testName: string, test: Predicate<T>): Ensure<T> {
         if (!test(this.value)) {
             this.errors.push(`Value must pass test "${testName}".`);
         }

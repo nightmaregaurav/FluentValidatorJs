@@ -1,0 +1,31 @@
+{
+  "name": "@nightmaregaurav/fluent-validator-js",
+  "version": "2.0.7",
+  "description": "FluentValidatorJs is a TypeScript utility library that provides a fluent, readable, and intuitive way to perform value validations and collect error messages. With its easy-to-use chaining methods, you can define and execute complex validation rules with minimal effort.",
+  "scripts": {
+    "compile": "tsc",
+    "clean": "rm -f *.js && rm -f *.d.ts && rm -f *.js.map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nightmaregaurav/FluentValidatorJs.git"
+  },
+  "keywords": [
+    "fluent validator",
+    "fluent validation",
+    "fluent validation library"
+  ],
+  "author": "nightmaregaurav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nightmaregaurav/FluentValidatorJs/issues"
+  },
+  "homepage": "https://github.com/nightmaregaurav/FluentValidatorJs#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@nightmaregaurav/ts-utility-types": "0.0.1"
+  }
+}

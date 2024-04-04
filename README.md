@@ -3,7 +3,9 @@
 FluentValidatorJs is a TypeScript utility library that provides a fluent, readable, and intuitive way to perform value validations and collect error messages. With its easy-to-use chaining methods, you can define and execute complex validation rules with minimal effort.
 
 ## Installation
-[Not Currently available in NPM]
+```bash
+npm install @nightmaregaurav/fluent-validator-js
+````
 
 ## Usage
 
