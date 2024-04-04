@@ -10,7 +10,7 @@ npm install @nightmaregaurav/fluent-validator-js
 ## Usage
 
 ```typescript
-import { Ensure } from 'fluent-validator-js';
+import { Ensure } from '@nightmaregaurav/fluent-validator-js';
 
 const result = Ensure.given("Hello, World!")
     .isString()
